@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Exortions/better-init.git"
+        "url": "git+https://github.com/Exortions/better-init-cli.git"
     },
     "keywords": [
         "npm",
