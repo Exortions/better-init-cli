@@ -1,0 +1,17 @@
+{
+    "name": "discord-template",
+    "version": "1.0.0",
+    "description": "A Discord.js template made with better-init",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^13.6.0"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.0"
+    }
+}

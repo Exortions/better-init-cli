@@ -1,0 +1,54 @@
+{
+    "name": "better-npm-init",
+    "version": "1.0.1",
+    "description": "A better version of npm init, with templates and more. Usage: better-npm-init <template> [--yarn] [--install] [--git] [--yes] [--help]",
+    "main": "src/index.js",
+    "bin": "bin/better-init",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "exec-unit-test-noargs": "node test/noargs.js",
+        "test-js-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init javascript",
+        "test-ts-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init typescript",
+        "test-express-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init express",
+        "test-next-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init next",
+        "test-discord-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init discord",
+        "test-react-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init react",
+        "test-angular-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init angular",
+        "test-noargs": "rm -rf test-template && mkdir test-template && cd test-template && better-init"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Exortions/better-init.git"
+    },
+    "keywords": [
+        "npm",
+        "npm-init",
+        "automation",
+        "node.js",
+        "node",
+        "cli",
+        "better-init"
+    ],
+    "author": "Exortions <https://github.com/Exortions>",
+    "license": "MIT",
+    "dependencies": {
+        "arg": "^4.1.3",
+        "chalk": "^2.4.2",
+        "covgen": "^3.2.1",
+        "esm": "^3.2.25",
+        "execa": "^1.0.0",
+        "gitignore": "^0.6.0",
+        "inquirer": "^6.5.2",
+        "listr": "^0.14.3",
+        "ncp": "^2.0.0",
+        "pkg-install": "^0.2.0",
+        "spdx-license-list": "^5.0.0"
+    },
+    "files": [
+        "bin/",
+        "src/",
+        "templates/"
+    ]
+}
